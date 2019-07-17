@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+
+<head>
+
+    <title>MarioTRIVIA!</title>
+    <link href="assets/css/style.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <script src="assets/javascript/app.js"></script>
+
+</head>
+
+<body>
+    <h1>MARIOS TRIVIA!</h1>
+
+
+    <form id="quiz" name="quiz">
+
+
+        <p class="questions"> what was mario originally known as?</p>
+        <input id="textbox" type="text" name="question1">
+
+        <p class="questions">what level is in every version of supermario?</p>
+
+        <input type="radio" id="mc" name="question2" value="Rainbow Road"> Rainbow Road<br>
+        <input type="radio" id="mc" name="question2" value="coconut Mountain"> coconut Mountain<br>
+        <input type="radio" id="mc" name="question2" value="Luigis Speedway">Luigis Speedway<br>
+
+        <p class="questions">What was Bowser's original name?</p>
+
+        <input type="radio" id="mc" name="question3" value="King Koopa"> King Koopa<br>
+        <input type="radio" id="mc" name="question3" value="Lead Koopa"> Lead Koopa<br>
+        <input type="radio" id="mc" name="question3" value="Koopa Troopa"> Koopa Troopa<br>
+
+        <p class="questions"> what was mario's sidekick's name?</p>
+        <input id="textbox" type="text" name="question6">
+
+        <p class="questions">What was Mario's original job?</p>
+
+        <input type="radio" id="mc" name="question4" value="A doctor">A doctor<br>
+        <input type="radio" id="mc" name="question4" value="A pipe Cleaner">A pipe Cleaner<br>
+        <input type="radio" id="mc" name="question4" value="A carpenter">A carpenter<br>
+
+        <p class="question5">why do mario and luigi have a moustache?</p>
+
+        <input type="radio" id="mc" name="question5" value="expressions were hard to design at that time">expressions
+        were hard to design at that time<br>
+        <input type="radio" id="mc" name="question5" value="they're italian">they're italian<br>
+        <input type="radio" id="mc" name="question5" value="the developers father had a moustache">the developers
+        father had a moustache<br>
+
+
+        <input id="button" type="button" value="I'm finished!" onclick="check();">
+
+
+    </form>
+
+    <div id="after_submit">
+        <p id="number_correct"></p>
+        <p id="message"></p>
+        <img id="picture">
+    </div>
+
+    </html>

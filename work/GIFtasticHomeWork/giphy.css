@@ -1,0 +1,63 @@
+h1{
+    align-content: center;
+    font-family: fantasy;
+    border-style: double;
+    text-align: center;
+    color: yellow;
+
+}
+
+.jumbotron {
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size: 110% 100%;
+
+    background-image: url("image.gif");
+    justify-content: center;
+
+
+  }
+
+body{
+    background-color: black;
+    background-image: url("background.jpg");
+    background-size: cover;
+    justify-content: center;
+
+}
+
+#submitButton{
+    background-color: rgba(254, 224, 1, 0.801);
+    border: solid;
+    color: rgb(246, 12, 12);
+    border-radius: 50%;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.lead{
+    color:yellow;
+}
+
+#gifs-area{
+    color:yellow;
+}
+
+#buttonDisplay{
+    align-content: center;
+    color: rgb(246, 12, 12);
+    padding: 16px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+#gifs-area{
+    border-style: dashed;
+    border-color: yellow;
+}

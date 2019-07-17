@@ -1,0 +1,23 @@
+body{
+    /* width: 100%;
+    height: 500px; */
+    /* padding: 5px 0 0 0 ; */
+   background-position: center;
+   background-repeat: no-repeat;
+   /* background-size: cover; */
+   background-image:url('./couple-romantic-kissing-q8.jpg');
+}
+.container {
+    background:  rgb(193, 185, 236, 0.73);
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.jumbotron{
+    margin-bottom: 30px;
+    color: inherit;
+    background-color: rgb(193, 185, 236, 0.73);
+    border: outset;
+    width: 780px;
+}

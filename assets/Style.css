@@ -1,0 +1,384 @@
+/* images carousel */
+
+/*  */
+
+p{
+    font: italic bold 13px/38px Georgia, serif}
+ul{
+    list-style-type: none;
+    margin: 9px;
+    padding: 0;
+    overflow: hidden;
+    border-radius: 1.25rem;
+    background-color: #333;
+}
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: #04f953;
+    font-size: 14px;
+    text-align:center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover{
+    background-color: rgb(10, 140, 247);
+}
+
+.active {
+background-color: #4caf50
+}
+
+.img {
+    border: solid;
+    width: 220px;
+    height: 330px;
+}
+
+body{
+    background-color: #6d707c;
+    background-image: linear-gradient(to bottom, #2f5d18, #562b58 51%, #2296860d);
+    margin: 0;
+    padding: 0%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+    line-height: 150%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-size: 11px;
+}
+
+.img-container {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+  }
+  
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+.container{
+    width: 1024px;
+    margin: 0% auto;
+}
+
+ .copyright{
+
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
+
+        border-top: 8px solid teal;
+        padding: 40px;
+        background-color: #343a40;
+        height: 20px;
+        padding: 25px;
+        padding-top: 25px;
+        padding-right: 25px;
+        padding-bottom: 25px;
+        padding-left: 25px;
+        opacity: 0.;
+        border-style: solid;
+        border-color: darkgray;
+        border-width: 2px;
+}
+
+.copyright p{
+    color: #fff;
+    text-align: center;
+    
+}
+
+
+/* portfolio */
+/* ------------------------------------------- */
+.card{
+    width: 750px;
+    box-shadow: 5px 5px 7px 5px #000000;
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: center;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: rgba(144, 180, 218, 0.5);
+    background-clip: border-box;
+    border-radius: 3.25rem;
+}
+
+.card-title {
+    margin-bottom: 3.75rem;
+    font: italic bold 36px/30px Georgia, serif;
+}
+
+.card-header {
+    padding: .75rem 1.25rem;
+    margin-bottom: 0;
+
+}
+
+.card-body {
+    padding: 6px;
+    margin: 0;
+}
+
+.card-img-top {
+    width: 100%;
+    border-top-left-radius: calc(.25rem - 1px);
+    border-top-right-radius: calc(3.25rem - 1px);
+    border-radius: 3.25rem;
+    box-shadow: 2px 3px 0px 4px #000000;
+}
+
+
+/* info-inside-listgroup */
+.list-group-item{
+    background-color:rgba(28, 71, 119, 0.55);
+    padding: 30px;
+}
+
+/* navbar */
+.navbar {
+    padding: 25px;
+    padding-top: 25px;
+    padding-right: 25px;
+    padding-bottom: 25px;
+    padding-left: 25px;
+    opacity: 0.;
+    border-style: solid;
+    border-color: darkgray;
+    border-width: 2px;
+}
+
+#info {
+    height: 800px;
+}
+
+#about {
+    height: 90%;
+    width: 50%;
+    position: relative;
+    left: 350px;
+}
+
+#text {
+    padding: 60px;
+    background-color: rgba(56, 56, 56, 0.589);
+    color: rgb(240, 245, 240);
+    font-size: 15.5px;
+    letter-spacing: 4.5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    Font-position: Center;
+    border-width: 2.1px;
+    border-style: solid;
+    /* left: 350px;
+    border-radius:81px 50px 150px 150px;
+    -moz-border-radius:41px 50px 50px 50px;
+    -webkit-border-radius:41px 50px 50px 50px;
+    border-style: groove;
+    
+    border-color: rgb(106, 78, 144); */
+}
+
+h1  {
+    text-align: center;
+    color: powderblue;
+    font-size: 1.25rem;
+    font-weight: 400;
+    /* font-size: 70px; */
+    line-height: 50px;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    margin-top: 0.75em;
+}
+
+h2{
+    color: #2296860d;
+    font-family: Papyrus,fantasy; 
+}
+
+.a {
+    color: #0ead00;
+    text-decoration: none;
+    background-color: transparent;
+    font-size: 15px;
+}
+/* CardTitle */
+.card-body{
+    padding: -10px;
+    /* border: 4px solid rgb(66, 222, 233); */
+    margin: 0;
+    
+}
+/* blinking button */
+
+/* //e-go searchbutton// */
+.btn-outline-success {
+    color: #10efa0;
+    border-color: #02f327;
+}
+
+/* homebutton */
+.navbar-dark .navbar-nav .active>.nav-link, .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .show>.nav-link {
+    color: #12efa0;
+    border-color: #0e77de;
+}
+
+.navbar{
+    padding: 25px;
+    opacity: 0.8;
+}
+
+.navbar-brand{
+    font-size: 34px ;
+
+}
+
+.nav-link{
+    border-right-style: solid;
+    border-right-width:1px;
+    border-right-color: red;
+    padding: 1px;
+}
+
+
+#info {
+    height: 800px;
+}
+
+#about {
+    height: 90%;
+    width: 50%;
+    position: relative;
+    left: 350px;
+}
+
+.btn-primary {
+    color: #10efa0;
+    border-color: #343a40;
+    background-color: #0e0e0e;
+    height: 40px;
+    width: 150px;
+    font-size: 11px;
+    float: initial;
+}
+
+h2 {
+    text-align:center;
+    color: white 
+}
+/* contact css begins here */
+/* ----------------------------------------------- */
+#Email {
+	margin-left: 500px;
+	background: #d2def2;
+	padding: 20px 50px 20px 50px;
+	border-radius: 20px;
+    float: left;
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: center;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: rgba(144, 180, 218, 0.5);
+    background-clip: border-box;
+}
+
+input {
+	margin-bottom: 20px;
+	display: block;
+}
+
+#textbox {
+	height: 25px;
+	font-size: 16px;
+	border-radius: 5px;
+	border: none;
+	padding-left: 5px;
+}
+
+
+#button {
+	background: #1a649e;
+	border: none;
+	border-radius: 5px;
+	padding: 10px;
+	color: #3ed598;
+	font-size: 16px;
+	transition-duration: .5s;
+	margin-top: 15px;
+}
+
+
+
+#button:hover {
+	background: white;
+	border: 1px solid green;
+	color: black;
+	cursor: pointer;
+
+}
+
+#after_submit {
+	visibility: hidden;
+	background: #ff5459;
+	padding: 10px 20px 10px 20px;
+	width: 400px;
+	border-radius: 20px;
+	float: left;
+	margin-left: 20px;
+	font-size: 30px;
+
+
+}
+
+#picture {
+	width: 375px;
+	height: 245px;
+}
+
+
+
+#mc {
+	display: inline;
+} 
+/* mobile response */
+.navbar-toggler {
+    overflow: scroll;
+    background-color: #333;
+  }
+  
+  /* Style the topnav links */
+  .nav-link.active {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* On screens that are 600px wide or less, make the menu links stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .topnav a {
+      float: none;
+      width: 100%;
+    }
+  }
